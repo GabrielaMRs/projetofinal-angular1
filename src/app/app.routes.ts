@@ -4,7 +4,7 @@ import { LandingPageComponent } from './components/landing-page/landing-page.com
 import { SpeciesListComponent } from './components/species-list/species-list.component';
 import { SpeciesDetailsComponent } from './components/species-details/species-details.component';
 
-export const routes: Routes = [ // Adicione o export aqui
+export const routes: Routes = [ 
   { path: '', component: LandingPageComponent },
   { path: 'species', component: SpeciesListComponent },
   { path: 'species/:id', component: SpeciesDetailsComponent },

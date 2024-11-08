@@ -1,0 +1,50 @@
+/* header.component.css */
+.header {
+    display: flex;
+    justify-content: space-between; /* Alinha logo à esquerda e links à direita */
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  .logo img {
+    height: 40px; /* Define o tamanho da logo */
+  }
+  
+  .nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav a:hover {
+    color: red;
+  }
+  
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nav ul {
+      justify-content: center;
+      gap: 15px;
+      padding-top: 10px;
+    }
+  
+    .nav a {
+      padding: 10px;
+    }
+  }
+  
